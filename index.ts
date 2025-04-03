@@ -8,7 +8,7 @@ import V1Routes from "./components/routes"
 env.config()
 
 const corsOptions: CorsOptions = {
-    origin: ["http://localhost:3000/*"],
+    origin: ["http://localhost:3000/*", "https://www.flex2ride.com/*"],
     methods: ["POST", "GET"]
 }
 
